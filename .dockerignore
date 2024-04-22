@@ -1,0 +1,24 @@
+# Ignore Docker-specific files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Ignore development and local files
+#.env
+*.pyc
+*.pyo
+__pycache__/
+*.db
+*.sqlite3
+
+# Ignore version control files and directories
+.git
+.gitignore
+.github
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore any other temporary or generated files
+__init__.py
