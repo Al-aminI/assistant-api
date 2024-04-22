@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document provides a comprehensive guide to understanding and setting up the AI Assistant Application, a state-of-the-art solution designed to analyze PDF or CSV files and generate answers based on user prompts. The application uses advanced machine learning techniques, integrates with multiple APIs, and leverages optimized architecture for seamless performance.
+This document provides a comprehensive guide to understanding and setting up the AI Assistant Application, a state-of-the-art solution designed to analyze PDF or CSV files and generate answers based on user prompts. The application uses AI techniques, integrates with multiple APIs, and leverages optimized architecture for seamless performance.
 
 ## Features
 
@@ -21,7 +21,7 @@ The AI Assistant Application employs a world-class, industry-standard optimized 
 ### Directory Structure
 
 ```
-AI_Assistant/
+app/main/
 │
 ├── controller/
 │   └── .py
@@ -34,7 +34,7 @@ AI_Assistant/
 │   └── .py
 │
 ├── utility/
-│   └── s.py
+│   └── .py
 │
 ├── tests/
 │   └── congig text
@@ -43,7 +43,7 @@ AI_Assistant/
 ├── Dockerfile
 ├── docker-compose.yml
 ├── Makefile
-└── app.py
+└── manage.py
 ```
 
 #### Components
